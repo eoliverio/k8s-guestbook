@@ -4,6 +4,7 @@ metadata:
   name: guestbook-deployment
   labels:
     app: guestbook-app
+    type: frontend
 spec:
   replicas: 1
   selector:

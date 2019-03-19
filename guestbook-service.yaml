@@ -5,6 +5,7 @@ metadata:
   labels:
     app: guestbook-app
 spec:
+  type: LoadBalancer
   ports:
   - port: 3000
   selector:
